@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background-image: url(./images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.kushl {
+    font-size: 6rem;
+    text-align: center;
+    color: #08cae4;
+    margin-top: 0;
+    font-family: 'Caveat', cursive;
+}
+
+.pro {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #08cae4;
+    font-family: 'Caveat', cursive;
+}
+
+.container2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.hello {
+    font-family: 'Montserrat', sans-serif;
+    color: #074d57;
+    font-size: 2rem;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container3 {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#skills {
+    font-size: 2.2rem;
+    color: #074d57;
+}
+
+.list {
+    margin-left: 500px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.container4 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#know {
+    font-size: 2.2rem;
+    color: #074d57;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.office , .football , .valorant {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#office , #football , #valorant {
+    border-radius: 50%;
+}
+
+.but {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.btn {
+    background-color: #068fa1;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 5%;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: #08cae4 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #08cae4; /* Change the button color on hover */
+}
+
+.container5 {
+    margin-top: 80px;
+    height: 200px;
+}
+
+.foot {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.container6 {
+    margin-top: 30px;
+    background-color: #068fa1;
+    height: 150px;
+}
+
+#insta , #face , #github , #linkedin{
+    color: white;    
+}
+
+#copy {
+    color: white;   
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove the underline */
+}
+
+.knowledge {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+@media(max-width:650px) {
+    .knowledge {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+ 
+
+
